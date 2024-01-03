@@ -23,3 +23,12 @@ function calcular()
         document.getElementById('result').innerHTML = "nothing"
     }
 }
+function DarkMode() {
+    var body = document.body;
+    var bottom = document.querySelector('.bottom');
+    var main = document.querySelector('.main');
+
+    body.classList.toggle('dark-mode');
+    bottom.classList.toggle('DarkMode');
+    main.classList.toggle('DarkMode');
+}

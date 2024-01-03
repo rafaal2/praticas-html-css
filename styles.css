@@ -42,6 +42,41 @@
         .button:hover {
             background-color: lightgray;
         }
+        .DarkModeDiv{
+            width: 75px;
+            height: 50px;
+            position: absolute;
+            background-color: mediumorchid;
+            top: 40%;
+            left: 75%;
+            transform: translate(-40%, -75%);
+            border-radius: 10px;
+            color: aliceblue; 
+            border-bottom: 4px solid lightslategray;
+            border-right: 4px solid lightslategray;
+        }
+        .DarkModeButton{  
+            width: 65px;
+            height: 40px;
+            background-color: mediumorchid;
+            color: aliceblue;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        } 
+        .DarkModeButton:hover {
+            background-color: blueviolet;
+        }
+        .dark-mode .bottom {
+            background-image: linear-gradient(45deg, plum, black);
+            color: lightgreen;
+        }
+        
+        .dark-mode .main {
+            background-color: lightgreen;
+            border-bottom: 6px solid lightslategray;
+            border-right: 6px solid lightslategray;
+        }
         #result {
             background-color: lightslategray;
             color: aliceblue;
